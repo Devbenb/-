@@ -112,7 +112,7 @@ local ConfirmCorner = Instance.new("UICorner")
 ConfirmCorner.CornerRadius = UDim.new(0, 8)
 ConfirmCorner.Parent = ConfirmButton
 
-local CORRECT_KEY = "XK_83d0992ba16b0a979f7a50c79f8db6ae"
+local CORRECT_KEY = "XK_c0c6d99dc071d437091448c0de95b259"
 
 local function verifyKey()
     if KeyBox.Text == CORRECT_KEY then
